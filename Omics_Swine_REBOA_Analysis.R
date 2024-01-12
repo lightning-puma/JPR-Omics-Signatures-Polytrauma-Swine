@@ -1,7 +1,7 @@
 # Created By: Ian S. LaCroix
 
 
-#### Libraries ####
+#### Required Libraries ####
 library(tidyverse)
 library(dplyr)
 library(tidyr)
