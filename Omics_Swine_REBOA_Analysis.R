@@ -137,7 +137,7 @@ out <- dat_merged %>%
 write.csv(out, row.names = FALSE, "Swine_REBOA_Merged_Imputed.csv")
 
 
-#### Figure 1 ####
+#### Figure 2 Experiment Design and Vital Measurements ####
 ##### Summary Bar Plot #####
 dat_meta_sub <- dat.meta %>% 
   filter(Model == "REBOA Zone I + DCBI" | Model == "REBOA Zone III + DCBI"| Model == "DCBI") %>% 
